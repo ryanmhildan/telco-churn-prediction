@@ -1,0 +1,12 @@
+{
+  "source": "huggingface",
+  "identifier": "scikit-learn/churn-prediction",
+  "url": "https://huggingface.co/datasets/scikit-learn/churn-prediction",
+  "revision": "aa09900373d90780ee70d27571775aff0e51569c",
+  "license": "cc-by-4.0",
+  "downloaded_at_utc": "2026-11-25T11:50:52+00:00",
+  "rows": 7043,
+  "columns": 21,
+  "file": "telco_customer_churn.csv",
+  "sha256": "4cd901efab211ccb154051a93a1ab5e9298e37e8fd29bbf2c097da23cee36017"
+}

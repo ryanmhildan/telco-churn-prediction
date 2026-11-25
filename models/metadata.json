@@ -1,0 +1,64 @@
+{
+  "model_family": "lightgbm",
+  "imbalance_strategy": "none",
+  "best_params": {
+    "model__colsample_bytree": 0.7361074625809747,
+    "model__learning_rate": 0.014308552498147852,
+    "model__min_child_samples": 87,
+    "model__n_estimators": 742,
+    "model__num_leaves": 4,
+    "model__reg_lambda": 0.7707580772445938,
+    "model__subsample": 0.6943939678995823,
+    "model__subsample_freq": 1
+  },
+  "cv": {
+    "n_folds": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "average_precision_mean": 0.6702220842681321,
+    "average_precision_std": 0.01887217624784041,
+    "roc_auc_mean": 0.8496268778092301,
+    "roc_auc_std": 0.011660993710927835,
+    "recall_mean": 0.5438127090301004,
+    "recall_std": 0.023420924949848272,
+    "precision_mean": 0.6714478375041589,
+    "precision_std": 0.03303506716715402,
+    "f1_mean": 0.6004547955015005,
+    "f1_std": 0.021405306595123703,
+    "brier_mean": 0.1335061005029604,
+    "brier_std": 0.005275731098438049
+  },
+  "selection_rule": "highest mean CV average_precision across tuned families, all trained without reweighting so probabilities stay calibrated",
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_features": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "n_train": 5634,
+  "train_churn_rate": 0.2653532126375577,
+  "trained_at_utc": "2026-11-25T12:40:16+00:00",
+  "versions": {
+    "python": "3.12.10",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "pandas": "3.1.1"
+  }
+}

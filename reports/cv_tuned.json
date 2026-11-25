@@ -1,0 +1,69 @@
+[
+  {
+    "family": "logreg",
+    "strategy": "none",
+    "best_params": {
+      "model__C": 4.5705630998014515
+    },
+    "average_precision_mean": 0.6616617723188216,
+    "average_precision_std": 0.01913433101783407,
+    "roc_auc_mean": 0.8463333276090571,
+    "roc_auc_std": 0.012710892280864989,
+    "recall_mean": 0.5451505016722409,
+    "recall_std": 0.0419329177756722,
+    "precision_mean": 0.6531274041443615,
+    "precision_std": 0.025939931259499074,
+    "f1_mean": 0.5936235334248192,
+    "f1_std": 0.030593942055149082,
+    "brier_mean": 0.1349933254914148,
+    "brier_std": 0.005184663137891997
+  },
+  {
+    "family": "random_forest",
+    "strategy": "none",
+    "best_params": {
+      "model__n_estimators": 500,
+      "model__min_samples_leaf": 1,
+      "model__max_features": 0.5,
+      "model__max_depth": 6
+    },
+    "average_precision_mean": 0.665433636663692,
+    "average_precision_std": 0.02180634910097782,
+    "roc_auc_mean": 0.8466866688114143,
+    "roc_auc_std": 0.01176676974343291,
+    "recall_mean": 0.49632107023411365,
+    "recall_std": 0.012620710544557321,
+    "precision_mean": 0.6685787094809605,
+    "precision_std": 0.03985151457739961,
+    "f1_mean": 0.5693254810782682,
+    "f1_std": 0.01986149817173353,
+    "brier_mean": 0.13486004853067649,
+    "brier_std": 0.004639972095351558
+  },
+  {
+    "family": "lightgbm",
+    "strategy": "none",
+    "best_params": {
+      "model__colsample_bytree": 0.7361074625809747,
+      "model__learning_rate": 0.014308552498147852,
+      "model__min_child_samples": 87,
+      "model__n_estimators": 742,
+      "model__num_leaves": 4,
+      "model__reg_lambda": 0.7707580772445938,
+      "model__subsample": 0.6943939678995823,
+      "model__subsample_freq": 1
+    },
+    "average_precision_mean": 0.6702220842681321,
+    "average_precision_std": 0.01887217624784041,
+    "roc_auc_mean": 0.8496268778092301,
+    "roc_auc_std": 0.011660993710927835,
+    "recall_mean": 0.5438127090301004,
+    "recall_std": 0.023420924949848272,
+    "precision_mean": 0.6714478375041589,
+    "precision_std": 0.03303506716715402,
+    "f1_mean": 0.6004547955015005,
+    "f1_std": 0.021405306595123703,
+    "brier_mean": 0.1335061005029604,
+    "brier_std": 0.005275731098438049
+  }
+]

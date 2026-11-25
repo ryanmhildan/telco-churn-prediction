@@ -1,0 +1,23 @@
+{
+  "assumptions": {
+    "retention_cost_idr": 50000,
+    "churn_loss_idr": 1500000,
+    "retention_success_rate": 0.5
+  },
+  "threshold": 0.045,
+  "break_even_threshold": 0.06666666666666667,
+  "selected_on": "train out-of-fold predictions",
+  "oof_profit_per_1000_idr": 158377706.7802627,
+  "test": {
+    "threshold": 0.045,
+    "contacted": 1055.0,
+    "tp": 370.0,
+    "fp": 685.0,
+    "fn": 4.0,
+    "profit_idr": 224750000.0,
+    "profit_per_1000_idr": 159510290.98651525,
+    "precision": 0.35071090047393366,
+    "recall": 0.9893048128342246
+  },
+  "test_n": 1409
+}

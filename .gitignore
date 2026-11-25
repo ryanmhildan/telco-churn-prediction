@@ -1,0 +1,40 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# AI coding assistants: local settings and agent instruction files
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+AGENTS.md
+AGENT.md
+agent.md
+agents.md
+GEMINI.md
+.gemini/
+.cursor/
+.cursorrules
+.cursorignore
+.windsurf/
+.windsurfrules
+.aider*
+.continue/
+.codeium/
+.roo/
+.roomodes
+.clinerules
+.cline/
+.kiro/
+.github/copilot-instructions.md
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

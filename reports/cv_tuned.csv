@@ -1,0 +1,4 @@
+family,strategy,average_precision_mean,average_precision_std,roc_auc_mean,roc_auc_std,recall_mean,recall_std,precision_mean,precision_std,f1_mean,f1_std,brier_mean,brier_std
+logreg,none,0.6617,0.0191,0.8463,0.0127,0.5452,0.0419,0.6531,0.0259,0.5936,0.0306,0.135,0.0052
+random_forest,none,0.6654,0.0218,0.8467,0.0118,0.4963,0.0126,0.6686,0.0399,0.5693,0.0199,0.1349,0.0046
+lightgbm,none,0.6702,0.0189,0.8496,0.0117,0.5438,0.0234,0.6714,0.033,0.6005,0.0214,0.1335,0.0053
